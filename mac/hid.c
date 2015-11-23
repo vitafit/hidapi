@@ -451,7 +451,7 @@ struct hid_device_info  HID_API_EXPORT *hid_enumerate(unsigned short vendor_id, 
 			size_t len;
 
 			/* VID/PID match. Create the record. */
-			tmp = malloc(sizeof(struct hid_device_info));
+			tmp = calloc(1, sizeof(struct hid_device_info));
 			if (cur_dev) {
 				cur_dev->next = tmp;
 			}
@@ -495,6 +495,12 @@ struct hid_device_info  HID_API_EXPORT *hid_enumerate(unsigned short vendor_id, 
 	CFRelease(device_set);
 
 	return root;
+}
+
+struct hid_device_info HID_API_EXPORT * HID_API_CALL hid_enumerate_device(const char *path)
+{
+	/* TODO: Implement this function for platforms other than Windows. */
+	return NULL;
 }
 
 void  HID_API_EXPORT hid_free_enumeration(struct hid_device_info *devs)
@@ -939,6 +945,25 @@ int HID_API_EXPORT hid_set_nonblocking(hid_device *dev, int nonblock)
 	dev->blocking = !nonblock;
 
 	return 0;
+}
+
+int HID_API_EXPORT hid_get_input_report(hid_device *dev, unsigned char *data, size_t length)
+{
+	CFIndex len = length;
+	IOReturn res;
+
+	/* Return if the device has been unplugged. */
+	if (dev->disconnected)
+		return -1;
+
+	res = IOHIDDeviceGetReport(dev->device_handle,
+	                           kIOHIDReportTypeInput,
+	                           data[0], /* Report ID */
+	                           data+1, &len);
+	if (res == kIOReturnSuccess)
+		return len;
+	else
+		return -1;
 }
 
 int HID_API_EXPORT hid_send_feature_report(hid_device *dev, const unsigned char *data, size_t length)
