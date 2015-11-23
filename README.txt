@@ -1,6 +1,135 @@
          HIDAPI library for Windows, Linux, FreeBSD and Mac OS X
         =========================================================
 
+Releted pull requests from signal1/hidapi. This fork is a combination of pull requests for linux/Windows from various contributors from the official pull requests on signal11/hidapi and some minor changes from me. See list of merges of pull requests.
+
+commit 1fef38d064451dc8fac85c6379140737273b0248
+Merge: 826a2bb 27a635b
+Author: merker <merker@merker-lap.accellence.local>
+Date:   Wed Nov 11 17:42:58 2015 +0100
+
+    Merge branch 'lwahonen'
+    
+    # Please enter a commit message to explain why this merge is necessary,
+    # especially if it merges an updated upstream into a topic branch.
+    #
+    # Lines starting with '#' will be ignored, and an empty message aborts
+    # the commit.
+
+commit 826a2bba502051091c68059fc453e631f997ac01
+Merge: b3fd729 749c925
+Author: merker <merker@merker-lap.accellence.local>
+Date:   Wed Nov 11 17:40:35 2015 +0100
+
+    Merge branch 'jnk0le'
+    
+    # Please enter a commit message to explain why this merge is necessary,
+    # especially if it merges an updated upstream into a topic branch.
+    #
+    # Lines starting with '#' will be ignored, and an empty message aborts
+    # the commit.
+
+commit b3fd7294c2139a8b3a545485f0670c4af5a6f40b
+Merge: b46b6d1 7b406a3
+Author: merker <merker@merker-lap.accellence.local>
+Date:   Wed Nov 11 17:37:51 2015 +0100
+
+    Merge branch 'JPGygax68'
+    
+    Conflicts:
+    	windows/hid.c
+
+commit b46b6d1fe5f2c904ff5b4785935c652c2637efe4
+Merge: c614bf6 873c774
+Author: merker <merker@merker-lap.accellence.local>
+Date:   Wed Nov 11 17:30:44 2015 +0100
+
+    Merge branch 'DexteraLabs'
+    
+    # Please enter a commit message to explain why this merge is necessary,
+    # especially if it merges an updated upstream into a topic branch.
+    #
+    # Lines starting with '#' will be ignored, and an empty message aborts
+    # the commit.
+
+commit c614bf66c43fcd0bcac08ff39adc423633f8ef8e
+Merge: c9b4a89 ed3f89a
+Author: merker <merker@merker-lap.accellence.local>
+Date:   Wed Nov 11 17:26:37 2015 +0100
+
+    Merge branch 'mrpippy'
+    
+    # Please enter a commit message to explain why this merge is necessary,
+    # especially if it merges an updated upstream into a topic branch.
+    #
+    # Lines starting with '#' will be ignored, and an empty message aborts
+    # the commit.
+
+commit c9b4a898dc2a6661204cb0eeb7ea4cd6f9863491
+Merge: 075d840 09d640c
+Author: merker <merker@merker-lap.accellence.local>
+Date:   Wed Nov 11 17:25:12 2015 +0100
+
+    Merge branch 'LudovicRousseau'
+    
+    # Please enter a commit message to explain why this merge is necessary,
+    # especially if it merges an updated upstream into a topic branch.
+    #
+    # Lines starting with '#' will be ignored, and an empty message aborts
+    # the commit.
+
+commit 075d8400af587261a3145df23d3eef779342f2c7
+Merge: 2b2d4e7 8403c44
+Author: merker <merker@merker-lap.accellence.local>
+Date:   Wed Nov 11 17:22:38 2015 +0100
+
+    Merge branch 'Armada651'
+    
+    # Please enter a commit message to explain why this merge is necessary,
+    # especially if it merges an updated upstream into a topic branch.
+    #
+    # Lines starting with '#' will be ignored, and an empty message aborts
+    # the commit.
+
+commit 2b2d4e7c71f6f7814008355888912720f3ec6085
+Merge: c3e03af e3cd447
+Author: merker <merker@merker-lap.accellence.local>
+Date:   Wed Nov 11 17:20:57 2015 +0100
+
+    Merge branch 'amullins83'
+    
+    # Please enter a commit message to explain why this merge is necessary,
+    # especially if it merges an updated upstream into a topic branch.
+    #
+    # Lines starting with '#' will be ignored, and an empty message aborts
+    # the commit.
+
+commit c3e03afe79c2d83eb5d1be0b91edfa4f91b8ed3d
+Merge: 45cbf3b 2ad666d
+Author: merker <merker@merker-lap.accellence.local>
+Date:   Wed Nov 11 17:13:40 2015 +0100
+
+    Merge branch 'booto'
+    
+    # Please enter a commit message to explain why this merge is necessary,
+    # especially if it merges an updated upstream into a topic branch.
+    #
+    # Lines starting with '#' will be ignored, and an empty message aborts
+    # the commit.
+
+commit 45cbf3bcf22fb2f33853b1c5246b0396ab5e3384
+Merge: 1340abd 53d85c5
+Author: merker <merker@merker-lap.accellence.local>
+Date:   Wed Nov 11 17:08:12 2015 +0100
+
+    Merge branch 'amullins83'
+    
+    # Please enter a commit message to explain why this merge is necessary,
+    # especially if it merges an updated upstream into a topic branch.
+    #
+    # Lines starting with '#' will be ignored, and an empty message aborts
+    # the commit.
+
 About
 ======
 
