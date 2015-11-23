@@ -1,7 +1,7 @@
          HIDAPI library for Windows, Linux, FreeBSD and Mac OS X
         =========================================================
 
-Releted pull requests from signal1/hidapi. This fork is a combination of pull requests for linux/Windows from various contributors from the official pull requests on signal11/hidapi and some minor changes from me. See list of merges of pull requests.
+Related pull requests from signal1/hidapi. This fork is a combination of pull requests for linux/Windows from various contributors from the official pull requests on signal11/hidapi and some minor changes from me. See list of merges of pull requests.
 
 commit 1fef38d064451dc8fac85c6379140737273b0248
 Merge: 826a2bb 27a635b
